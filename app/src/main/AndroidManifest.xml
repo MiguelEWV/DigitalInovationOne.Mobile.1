@@ -10,15 +10,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IMCCalculator">
         <activity
-            android:name=".ActividadInicial"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            android:name=".Finalizado"
+            android:exported="true" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
         </activity>
 
+        <activity
+            android:name=".ActividadInicial"
+            android:exported="true">
 
+        </activity>
     </application>
 
 </manifest>

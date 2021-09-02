@@ -5,29 +5,35 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/IMC"
+        android:id="@+id/tvIMC"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_marginTop="100dp"
-        android:text="IMC"
+        android:text="I.M.C"
         android:textAlignment="center"
         android:textColor="@color/VERDE"
         android:textStyle="bold"
         android:textSize="56dp" />
 
     <EditText
-        android:hint="Insira seu peso en Kg"
+        android:id="@+id/etPeso1"
+        android:hint="Peso (Ex: 68.0 Kg)"
+        android:layout_marginHorizontal="70dp"
         style="@style/EntradadedadosStyle" />
 
     <EditText
+        android:id="@+id/etAltura1"
         style="@style/EntradadedadosStyle"
         android:layout_width="match_parent"
-        android:hint="Insira a sua altura em Cm"
+        android:layout_marginHorizontal="50dp"
+        android:hint="Altura (Ex: 1.80 Cm)"
         />
 
     <Button
+        android:id="@+id/btnCalcular1"
         style="@style/EntradadedadosStyle"
         android:layout_width="match_parent"
+        android:layout_marginHorizontal="0dp"
         android:text="Calcular"
         android:backgroundTint="@color/VERDE"/>
 
